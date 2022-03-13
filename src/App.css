@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance p {
+  border: 1px solid #94a3b8;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e0f2fe;
+}
+
+.add {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #a5b4fc;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.add:hover {
+  background-color: #6366f1;
+}
+
+.cancel {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ec4899;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.cancel:hover {
+  background-color: #9d174d;
+}
+
+.exp-inc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.exp,
+.inc {
+  width: 100px;
+  height: 60px;
+  border: 1px solid #94a3b8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+.exp {
+  background-color: #fff1f2;
+}
+
+.inc {
+  background-color: #f0fdf4;
+}
+
+.exp span,
+.inc span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.exp span {
+  color: #ec4899;
+}
+
+.inc span {
+  color: #4ade80;
+}
+
+.desc-input,
+.amount-input {
+  padding: 5px 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+  margin: 15px 0;
+  width: 60%;
+  outline: none;
+}
+
+.search-input:focus,
+.desc-input:focus,
+.amount-input:focus {
+  outline: 1px solid #a5b4fc;
+}
+
+.radioBox {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 0 15px 10px;
+}
+
+.radioBox label {
+  margin-left: 3px;
+  font-size: 12px;
+}
+
+input[type='radio'] {
+  margin: 10px 2px;
+}
+
+form button {
+  padding: 8px 20px;
+  width: 80%;
+  margin-left: 30px;
+  background-color: #a78bfa;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #7c3aed;
+}
+
+.transaction-comp {
+  width: 90%;
+  height: 40px;
+  margin: 20px 0 5px 0;
+  background-color: #f3f4f6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5px;
+}
